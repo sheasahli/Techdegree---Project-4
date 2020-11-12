@@ -9,6 +9,8 @@ $color-text: #777;
 $color-warning: #fd7856;
 $color-success: #63cc82;
 
+$primary-light: lighten($color-primary, 25%);
+
 /* ============================================= */
 /*           Media Query Breakpoints             */
 /* ============================================= */
