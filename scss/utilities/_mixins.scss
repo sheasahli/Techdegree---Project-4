@@ -1,0 +1,13 @@
+/* ============================================= */
+/*              Mixins                           */
+/* ============================================= */
+
+@mixin img-display (
+$marg-top: null,
+$max-wth: null) {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: $marg-top;
+  max-width: $max-wth;
+}
