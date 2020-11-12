@@ -1,7 +1,7 @@
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: 768px) {
+@media #{$brk-desktop} {
 
 .container {
   max-width: 1400px;

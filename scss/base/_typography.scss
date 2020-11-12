@@ -5,7 +5,7 @@
 
 * {
   font-family: 'Lato', sans-serif;
-  color: #777;
+  color: $color-text;
   box-sizing: border-box;
 }
 
@@ -22,18 +22,20 @@ a {
 /*              Typography                       */
 /* ============================================= */
 
-.headline-primary {
-  color: $color-primary;
-  margin-left: 10px;
-}
+.headline {
+  &-primary {
+    color: $color-primary;
+    margin-left: 10px;
+  }
 
-.headline-secondary {
-  font-weight: 300;
-  color: #777;
+  &-secondary {
+    font-weight: 300;
+    color: $color-text;
+  }
 }
 
 .link {
-  color: #51ddfc;
+  color: $color-accent;
   font-weight: 700;
 }
 
@@ -43,6 +45,6 @@ a {
   font-style: italic;
   margin-left: 20px;
   padding-left: 20px;
-  border-left: 8px solid #58e1c1;
+  border-left: 8px solid $color-primary;
   border-radius: 5px;
 }
